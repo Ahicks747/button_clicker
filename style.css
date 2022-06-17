@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* ----Top Bar for search/login --- */
+.nav {
+    background-color: lightgray;
+    /*width: 950px; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.nav-title {
+    margin-left: 10px;
+    font-family: sans-serif;
+    
+}
+
+.searchbar {
+    width: 300px;
+    height: 30%;
+    border: solid black;
+}
+
+.login {
+    background-color: blue;
+    border: solid black;
+    color: white;
+    width: 70px;
+    height: 25px;
+    margin: 5%;
+    box-shadow: 3px 3px black;   
+}
+/* ^^^ Ended Nav ^^^ */
+
+.container {
+    margin: 0 auto;
+    width: 1000px;
+    /* border: dotted red 2px; */
+}
+
+.row {
+    display: flex;
+    
+}
+
+.boxcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid black;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.col {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;  
+    margin-left: 30px;
+}
+
+
+/* ---- Box 1/2 ---- */
+.boxleft {
+    flex: 1;
+    text-align: center;
+}
+
+.boxleft h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.likes {
+    background-color: goldenrod;
+    border: solid black;
+    box-shadow: 3px 3px black;
+    width: 8em;
+    height: 2em;
+}
+
+.boxleft p {
+    margin: 10px;
+    font-size: 20px; 
+}
+
+.boxwords {
+    flex: 3;
+    margin-left: 20px;
+    font-size: 24px;
+    padding: 10px;
+}
+
+
+
+/* ---- Box 3 ---- */
+.box3 {
+    border: solid black;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid black 2px;
+}
+
+.box3 h1 {
+    font-size: 28px;
+}
+
+.adddef {
+    background-color: lightgreen;
+    border: solid black;
+    box-shadow: 3px 3px black;
+    width: 100%;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
